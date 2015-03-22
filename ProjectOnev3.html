@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Project 1 - Build a Portfolio Site</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+  <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6"><img class="title-logo" src="./images/Logo2.png" alt="title logo"></div>
+      <div class="col-md-6 text-right text-uppercase">
+        <h1 class="title-super text-thin">Austin Satish</h1>
+        <h4>Web Developer</h4>
+      </div>
+    </div>
+    <div class ="row">
+    	<div class="col-md-12">
+    	<hr>
+    	</div>
+    </div>
+    <div class="row">
+    	<div class="col-md-12">
+      <img src="./images/BannerImage2.png" class="img-responsive" alt="Banner Image Section">
+      	</div>
+    </div>
+    <div class="row">
+      <div class="col-md-12"><h2 class="text-muted">Featured Work</h2></div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img src="./images/Austin360BridgeMod.jpg" class="img-responsive" alt="Travel Section" data-toggle="modal" data-target="#leftimage">
+        <h3 class="text-uppercase">Travel</h3>
+        <p><a href="https://github.com/udacity/Appify">Link to Travel Section</a></p>
+      </div>
+      <div class="col-md-4">
+        <img src="./images/yoga-pose-sunset.jpg" class="img-responsive" alt="Health Section" data-toggle="modal" data-target="#centerimage">
+        <h3 class="text-uppercase">Health</h3>
+        <p><a href="https://github.com/udacity/Sunflower">Link to Health Section</a></p>
+      </div>
+            <div class="col-md-4">
+        <img src="./images/education.jpg" class="img-responsive" alt="Education Section" data-toggle="modal" data-target="#rightimage">
+        <h3 class="text-uppercase">Education</h3>
+        <p><a href="https://github.com/udacity/Bokeh">Link to Education Section</a></p>
+      </div>
+    </div>
+</div>
+
+<!-- Modal for Travel Section -->
+<div class="modal fade" id="leftimage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel2">Travel Section</h4>
+      </div>
+      <div class="modal-body">
+        <img src="./images/Austin360BridgeMod.jpg" class="img-responsive" alt="Travel Section">
+        This section is under construction. Here I will share with you details of the interesting places I visit. This is the photo of Austin's famous 360 Bridge. I don’t know if it’s the beautiful scenery overlooking Lake Austin, or just the fact that it’s such an Austin icon. Either way it symbolizes all the things that make me happy to be an Austinite.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+<!-- Modal for Health Section -->
+<div class="modal fade" id="centerimage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel3">Health Section</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="./images/yoga-pose-sunset.jpg" alt="Under Construction image">        
+        This section is under construction. Yoga and Meditation are my new interests. Please revisit soon to read my about my experiences of the impact of Yoga and Meditation on my health.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> 
+
+  
+<!-- Modal for Education -->
+<div class="modal fade" id="rightimage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel4">Education Section</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="./images/education.jpg" alt="Under Construction Section">
+        This section is under construction.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+</body></html>
